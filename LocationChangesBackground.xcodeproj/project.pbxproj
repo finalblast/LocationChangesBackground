@@ -161,6 +161,11 @@
 				TargetAttributes = {
 					506807E01CA274510040DB97 = {
 						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					506807F51CA274510040DB97 = {
 						CreatedOnToolsVersion = 6.1;
@@ -405,6 +410,7 @@
 				506808021CA274510040DB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		506808031CA274510040DB97 /* Build configuration list for PBXNativeTarget "LocationChangesBackgroundTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +419,7 @@
 				506808051CA274510040DB97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
